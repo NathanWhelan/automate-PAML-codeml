@@ -1,4 +1,4 @@
-autormate-PAML-codeml
+automate-PAML-codeml
 =====================
 
 This code was put together to automate the PAML-codeml package (Yang, 2007). It requires BioPython. 
