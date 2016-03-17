@@ -38,3 +38,8 @@ cml.out_file = sys.argv[3]
 
 name=sys.argv[1]
 print name
+name=sys.argv[1]
+print name
+name2=name[0:5]+"_omega.out"
+print name2
+results1 = cml.run(verbose=True)
