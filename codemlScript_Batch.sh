@@ -13,7 +13,7 @@
 ##########################################################################################################################
 
 
-##This shell script calls a simple for loop to automate codeml, which must be called by codemlScript.py This script was put together
+##This shell script calls a simple for loop to automate codeml in combination with the script codemlScript.py This script was put together
 ##because there wasn't a very good way to call PAML in batch mode. This script could be useful if you have many gene alignments, 
 ##a tree for your taxa and the desire to fit your alignments and tree to a model in PAML. It could be used to test for positive
 ##selection for any given gene. NOTE: The tree must have the same tip names as taxa in the alignment. 
