@@ -20,6 +20,9 @@
 ##This script can be used to automate running the codeml PAML package(e.g. if you have hundreds of genes you want to fit to a model).
 #A codeml ctl file should be in your working directory with the parameters you wish to use.
 
+##Calling this program is typically done in conjunction with the Bash script provided with this Python script. However, this script can be run independently
+##To run script: python codemlScript.py <alignment.phy> <treefile.newick> <outputfile.txt>  The input files must be typed in the correct order.
+
 from __future__ import division
 from Bio.Phylo.PAML import codeml ##Biopython PAML
 import sys
